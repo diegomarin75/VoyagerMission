@@ -1,0 +1,48 @@
+2.0:
+ - New main screen picture created. New panels added, more nice and
+   realistic.
+ - New panel added to show the active engines.
+ - Pcx font library added
+Pending:
+ - It is required to implement functions to stop, restart simulation to be
+   able to call program menu while simulation is running (affects to simulation
+   loop and panel refresh functions)
+ - Program menu not finished 
+ - Rare seg fault occurs, not always, relative to GMemRead();
+ - Planets move so fast relative to the background stars.
+ - VisibleBody() function needs improvement (current check consists of Y>0,
+   it does not consider the clipping window)
+ - Planets are not sorted in order to print them. They have to be sorted by
+   distance.
+ - System clock, Mission time
+ - Content for visor panel, engine active main flag, navigation mode
+   (Manual,Computer).
+
+1.0:
+ - Main screen rearranged and background image added
+ - Simulation speed is alarm signal based, no system speed based anymore.
+ - Console system added (no commands implemented yet).
+ - Timer system created to control automatic events.
+ - Graphic files library improved to load 256 color files in RGB 555 / 565
+   mode.
+ - Screen mode is no longer G640x480x256 but the system tries to set 
+   G640x480x32K or G640x480x64K (first available)
+ - Planet representation enabled
+ - Rotation & tilt angles added to planet representation
+ - 3D library improved, no transformation function needed anymore. Camera
+   system added instead. 
+ - Shine added to planet representation 
+ - Variable planet definition added depending on a constant that should be
+   configurable automatically depending on system speed.
+ - Star field added via star catalog file.
+Pending:
+ - Planets move so fast relative to the background stars.
+ - VisibleBody() function needs improvement (current check consists of Y>0,
+   it does not consider the clipping window)
+ - Planets are not sorted in order to print them. They have to be sorted by
+   distance.
+ - Nice panel
+ - System clock, Mission time
+
+0.0: 
+ - Initial version
