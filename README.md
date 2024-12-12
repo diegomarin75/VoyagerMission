@@ -2,6 +2,15 @@
 
 **Spacecraft simulator on the solar system**
 
+## Hints
+
+Created using C on Linux
+Old style graphics, everything is done from scratch no graphic libraries used.
+71 celestial bodies									
+(20 with surface images)						
+1600 star database										
+Propulsion and rotation physics
+
 ## Screenshots
 
 Main menu:
