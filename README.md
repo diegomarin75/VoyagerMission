@@ -4,7 +4,7 @@
 
 ![marsandphobos](./screenshots/mars_and_phobos.jpg)
 
-This is an unfinished work, it is a spacecraft simulator on the solar system.
+This is a spacecraft simulator on the solar system.
 It is created entirely using C languaje and uses svgalib graphics library for linux, it is only working on linux.
 
 The application uses old style computer graphics, al rendering and 3D graphics are made with CPU computing all pixels one by one
@@ -26,8 +26,10 @@ On the screen the application displays the following things:
   - Solar system 2D map, showing nearby celestial bodies 
   - Spacecraft state information (orientation, velocity, accereration, torque, angular monentum and velocity
   - Power of of all the engines
+  - Navigation computer console
 
-The screenshots below show the main menu of the application plus some scenes of the spacecraft orbiting Earth and Mars.
+The application is not fully finished, as there are planned features not implemented, however the simulation is playable as you can see on screenshots below.
+They show the main menu of the application plus some scenes of the spacecraft orbiting Earth and Mars.
 
 ## Screenshots
 
