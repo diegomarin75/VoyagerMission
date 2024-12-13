@@ -17,7 +17,9 @@ The spacecraft is simulated a set of points that act as a rigid solid. Some of t
 
 On the screen the application displays the following things:
 
-- Outside window: The visible objects on the rendered universe are displated here, this includes, planets, satellites and stars.
+- Outside window: 
+  
+  The visible objects on the rendered universe are displated here, this includes, planets, satellites and stars.
 
 - Spacecraft cockpit panels:
   - Spacecraft orientation plus velocity and acceleration vectors
