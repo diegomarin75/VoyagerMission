@@ -15,6 +15,14 @@ The background is also filled with stars comming from a 1600 star catalog.
 
 The spacecraft is simulated a set of points that act as a rigid solid. Some of the points of the spacecraft have engines attached that produce propulsion or rotation of the spacecraft. This is controlled with the keyboard.
 
+On the screen the application displays the following things:
+- Outside window: The visible objects on the rendered universe are displated here, this includes, planets, satellites and stars.
+- Spacecraft cockpit panels:
+  - Spacecraft orientation plus velocity and acceleration vectors
+  - Solar system 2D map, showing nearby celestial bodies 
+  - Spacecraft state information (orientation, velocity, accereration, torque, angular monentum and velocity
+  - Power of of all the engines
+
 ## Screenshots
 
 Main menu:
