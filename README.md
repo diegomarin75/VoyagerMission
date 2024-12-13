@@ -27,6 +27,8 @@ On the screen the application displays the following things:
   - Spacecraft state information (orientation, velocity, accereration, torque, angular monentum and velocity
   - Power of of all the engines
 
+The screenshots below show the main menu of the application plus some scenes of the spacecraft orbiting Earth and Mars.
+
 ## Screenshots
 
 Main menu:
