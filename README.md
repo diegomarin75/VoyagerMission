@@ -5,10 +5,11 @@
 ![marsandphobos](./screenshots/mars_and_phobos.jpg)
 
 This is a spacecraft simulator on the solar system.
-It is created entirely using C languaje and uses svgalib graphics library for linux, it is only working on linux.
+It is created entirely using C languaje and works on linux.
 
 The application uses old style computer graphics, al rendering and 3D graphics are made with CPU computing all pixels one by one
-(I mean, it does not use OpenGL or other 3D graphic libraries).
+(I mean, it does not use OpenGL or other 3D graphic libraries). 
+It only uses svgalib to access screen surface.
 
 The simulation includes 71 celestial bodies counting planets and satellites. 20 of them are rendered with surface images available on internet.									
 The background is also filled with stars comming from a 1600 star catalog.
