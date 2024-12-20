@@ -11,7 +11,7 @@ The application uses old style computer graphics, al rendering and 3D graphics a
 (I mean, it does not use OpenGL or other 3D graphic libraries). 
 It only uses svgalib to access screen surface.
 
-The simulation includes 71 celestial bodies counting planets and satellites. 20 of them are rendered with rectangular surface images available on internet, which are rendered on spheres.
+The simulation includes 71 celestial bodies counting planets and satellites. 20 of them are rendered with rectangular surface images available on internet, which are projected on spheres.
 The background is also filled with stars comming from a 1600 star catalog.
 
 The simulation includes a spacecraft that is modelled as a a set of points acting as a rigid solid. Some of the points of the spacecraft have engines attached on them that produce propulsion or rotation of the spacecraft. This is controlled with the keyboard.
